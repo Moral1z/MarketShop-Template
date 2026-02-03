@@ -60,6 +60,7 @@
 body {
     font-family: 'Poppins';
     margin: 0;
+    
 }
 
 * {
@@ -918,7 +919,7 @@ i.fas.fa-check-circle {
 }
 
 .footer-info {
-    padding: 80px 135px 69px 135px;
+    padding: 80px 135px 50px 135px;
     display: flex;
 }
 
@@ -974,11 +975,15 @@ i.fas.fa-check-circle {
     text-align: center;
 }
 
+.footer-copyright p{
+    margin: 0;
+}
+
 .line-footer {
     display: block;
     border: none;
     border-top: 1px solid #1a1a1a;
-    width: 1564px;
+        width: 1520px;
 }
 
 
