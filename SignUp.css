@@ -148,6 +148,7 @@ display: block;
     padding-top: 40px;
     padding-left: 135px;
     padding-bottom: 15px;
+    margin-bottom: 80px;
 }
 
 .site-name {
@@ -211,33 +212,65 @@ input {
     margin: auto;
 }
 
-.txt404 {
-    margin: 241px 306px 144px 306px;
-    text-align: center;
-    padding: 0;
+.Create {
+    width: 1305px;
+    height: 781px;
+    margin-right: 135px;
+    margin-bottom: 140px;
+    display: flex;
 }
 
-.p1404 {
-    font-size: 100px;
-    margin: 0;
+.img-create {
+    width: 805px;
+    height: 781px;
+    margin-right: 129px;
 }
 
-.btn-home-page {
-    font-size: 18px;
+.form-create {
+    background: none;
+    margin-top: 115px;
+}
+
+.form-p1 {
+    font-size: 30px;
+}
+
+.form_create_button {
+    font-size: 15px;
     background-color: #d93d3d;
     color: #f2f2f2;
-    text-align: center;
-    white-space: nowrap;
-    width: 165px;
-    height: 44px;
-    margin: 0px 650px 140px 690px;
-    border-radius: 5px
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 40px;
+}
+
+.inputname {
+    border: none;                /* Убираем все рамки */
+    border-bottom: 2px solid #333; /* Добавляем нижнюю линию */
+    outline: none;               /* Убираем синюю обводку при фокусе */
+    padding: 5px 0;
+}
+
+.inputemail {
+    border: none;                /* Убираем все рамки */
+    border-bottom: 2px solid #333; /* Добавляем нижнюю линию */
+    outline: none;               /* Убираем синюю обводку при фокусе */
+    padding: 5px 0;
+}
+
+.inputpassword {
+    border: none;                /* Убираем все рамки */
+    border-bottom: 2px solid #333; /* Добавляем нижнюю линию */
+    outline: none;               /* Убираем синюю обводку при фокусе */
+    padding: 5px 0;
 }
 
 .footer-site {
     height: 440px;
     background-color: #000000;
-    margin-top: 140px;
+    margin-top: 1030px;
 }
 
 .footer-info {
@@ -288,6 +321,10 @@ input {
     font-size: 20px;
 }
 
+.qr-code-ft {
+    height: 80px;
+}
+
 .footer-copyright {
     color: #3f3f3f;
     text-align: center;
@@ -301,5 +338,5 @@ input {
     display: block;
     border: none;
     border-top: 1px solid #1a1a1a;
-        width: 1520px;
+    width: 1520px;
 }
