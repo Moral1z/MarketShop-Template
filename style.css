@@ -213,8 +213,8 @@ input {
     font-size:  22px;
 }
 
-.purchase-icons {
-    margin: auto;
+div.purchase-icons {
+    margin-top: 11px;
 }
 
 .product-previews {
