@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exlusive SignUp</title>
-    <link rel="stylesheet" href="./SignUp.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">  
-
+    <title>Exlusive Cart</title>
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css"> 
 </head>
-
 <body>
 
     <header>
@@ -53,23 +51,68 @@
         </div>
         <hr>
 
-        <div class="Create">
-            <div class="img-create">
-                <img src="images/CartAnSmatphone.png" alt="">
-            </div>
-            <form class="form-create">
-                <p class="form-p1">Create an account</p>
-                <p class="form-p2">Enter your details below</p>
-                <input type="text" class="inputname" placeholder="Введите Ваше Имя" required>
-                <input type="email" class="inputemail" placeholder="Введите email" required>
-                <input type="password" class="inputpassword" placeholder="Введите пароль" required>
-                <button class="form_create_button" type="submit" name="form_create_submit">Create Account</button>
-            </form>
+        <div class="site-path">
+            <p>Home / Cart</p>
         </div>
 
-    </header>
+        <div class="cart-list">
 
-    <footer>
+            <div class="cart-menu">
+                <a>Product</a>
+                <a>Price</a>
+                <a>Quantity</a>
+                <a>Subtotal</a>
+            </div>
+
+            <div class="product-item">
+                <img src="images/gaming monitor.png" alt="">
+                <p class="prod">LCD Monitor</p>
+                <p class="price">$650</p>
+                <button class="quantity">01</button>
+                <p class="subtotal">$650</p>
+            </div>
+
+            <div class="product-item">
+                <img src="images/red gamepad.png" alt="">
+                <p class="prod">H1 GamePad</p>
+                <p class="price">$550</p>
+                <button class="quantity">02</button>
+                <p class="subtotal">$550</p>
+            </div>
+
+            <button class="btn1">Return To Shop</button>
+            <button class="btn2">Update Cart</button>
+
+        </div>
+
+
+        <div class="cart">
+
+            <div class="cart-coupon">
+                <input type="text" placeholder="Введите имя" class="coupon">
+                <button class="apply-coupon">Apply Coupon</button>
+            </div>
+
+            <div class="cart-total">
+                <div class="txt-total">
+                    <div class="txt-total1">
+                        <h3>Cart Total</h3>
+                        <p>Subtotal:</p>
+                        <p>Shipping:</p>
+                        <p>Total:</p>
+                    </div>
+                    <div class="txt-total2">
+                        <p>$1760</p>
+                        <p>Free</p>
+                        <p>$1760</p>
+                    </div>
+                </div>
+                <button class="order">Procees to checkout</button>
+            </div>
+
+        </div>
+
+        <footer>
         <div class="footer-site">
             <div class="footer-info">
 
@@ -138,7 +181,6 @@
 
         </div>
     </footer>
-
+    
 </body>
-
 </html>
