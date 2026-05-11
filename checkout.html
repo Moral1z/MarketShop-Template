@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exlusive Cart</title>
-    <link rel="stylesheet" href="./cart.css">
+    <title>Exlusive CheckOut</title>
+    <link rel="stylesheet" href="./chekout.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css"> 
 </head>
 <body>
-
-    <header>
+    
+<header>
         <nav>
             <div class="text-notification">
                 <a>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! ShopNow</a>
@@ -52,63 +52,76 @@
         <hr>
 
         <div class="site-path">
-            <p>Home / Cart</p>
+            <p>Account / My Account / Product / View Cart / CheckOut</p>
         </div>
 
-        <div class="cart-list">
+        <div class="table-check">
 
-            <div class="cart-menu">
-                <a>Product</a>
-                <a>Price</a>
-                <a>Quantity</a>
-                <a>Subtotal</a>
+        <div class="BillingDetails">
+            <h1>Billing Details</h1>
+            <p>First Name*</p>
+            <input type="text" name="query" class="input-det">
+            <p>Company Name</p>
+            <input type="text" name="query" class="input-det">
+            <p>Street Address*</p>
+            <input type="text" name="query" class="input-det">
+            <p>Apartment, floor, etc. (optional)</p>
+            <input type="text" name="query" class="input-det">
+            <p>Town/City*</p>
+            <input type="text" name="query" class="input-det">
+            <p>Phone Number*</p>
+            <input type="text" name="query" class="input-det">
+            <p>Email Address*</p>
+            <input type="text" name="query" class="input-det">
+
+            <div class="check-div">
+                <input type="checkbox" name="check" class="input-check">
+                <p>Save this information for faster check-out next time</p>
             </div>
 
-            <div class="product-item">
+        </div>
+
+        <div class="checkout-cart">
+            <div class="checkout-product">
                 <img src="images/gaming monitor.png" alt="">
-                <p class="prod">LCD Monitor</p>
-                <p class="price">$650</p>
-                <button class="quantity">01</button>
-                <p class="subtotal">$650</p>
+                <p class="check-product">LCD Monitor</p>
+                <p class="check-price">$650</p>
             </div>
 
-            <div class="product-item">
+            <div class="checkout-product">
                 <img src="images/red gamepad.png" alt="">
-                <p class="prod">H1 GamePad</p>
-                <p class="price">$550</p>
-                <button class="quantity">02</button>
-                <p class="subtotal">$550</p>
+                <p class="check-product">H1 Gamepad</p>
+                <p class="check-price">$1100</p>
+            </div>
+            <p>Subtotal:</p>
+            <p class="total-price">$1750</p>
+            <hr>
+            <p>Shipping:</p>
+            <p class="total-price">Free</p>
+            <hr>
+            <p>Total:</p>
+            <p class="total-price">$1750</p>
+            <hr>
+
+            <div class="radio-a">
+                <input type="radio" class="radio-input">
+                <p>Bank</p>
+                <img src="images/Vault.png" alt="">
             </div>
 
-            <button class="btn1">Return To Shop</button>
-            <button class="btn2">Update Cart</button>
-
-        </div>
-
-
-        <div class="cart">
+            <div class="radio-b">
+                <input type="radio" class="radio-input">
+                <p>Cash on delivery</p>
+            </div>
 
             <div class="cart-coupon">
                 <input type="text" placeholder="Coupon Code" class="coupon">
                 <button class="apply-coupon">Apply Coupon</button>
             </div>
 
-            <div class="cart-total">
-                <div class="txt-total">
-                    <div class="txt-total1">
-                        <h3>Cart Total</h3>
-                        <p>Subtotal:</p>
-                        <p>Shipping:</p>
-                        <p>Total:</p>
-                    </div>
-                    <div class="txt-total2">
-                        <p>$1760</p>
-                        <p>Free</p>
-                        <p>$1760</p>
-                    </div>
-                </div>
-                <button class="order">Procees to checkout</button>
-            </div>
+            <button class="place-order">Place Order</button>
+
+        </div>
 
         </div>
 
@@ -181,6 +194,6 @@
 
         </div>
     </footer>
-    
+
 </body>
 </html>
